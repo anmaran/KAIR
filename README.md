@@ -1,3 +1,7 @@
+# SwinIR for Sentinel-2
+
+This repository is forked from https://github.com/cszn/KAIR and was changed for Sentinel-2 satellite images. Only RGB channels were used and super-resolution was made from 20m to 10m.
+
 ## Training and testing codes for USRNet, DnCNN, FFDNet, SRMD, DPSR, MSRResNet, ESRGAN, BSRGAN, SwinIR, VRT, RVRT
 [![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/KAIR) 
 
