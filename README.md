@@ -1,6 +1,6 @@
 # SwinIR for Sentinel-2
 
-This repository is forked from [cszn/KAIR](https://github.com/cszn/KAIR) and was changed for Sentinel-2 satellite images. Only RGB channels were used and super-resolution was made from 20m to 10m. Examples of data on which the model was trained is in: /S2 Samples. The following changes have been made:
+This repository is forked from [cszn/KAIR](https://github.com/cszn/KAIR) and was changed for Sentinel-2 satellite images. Only RGB channels were used and super-resolution was made from 20m to 10m. Examples of data on which the model was trained is in: /S2 Samples. Weights are in: model_zoo/swinir/finetune_60000_E.pth and finetune_60000_G.pth. The following changes have been made:
 
 - RGB channels instead of YCbCr
 - 16-bit instead 8-bit
